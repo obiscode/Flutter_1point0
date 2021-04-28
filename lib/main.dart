@@ -40,10 +40,11 @@ class HelloWorldApp extends StatelessWidget {
                   ),
                 ),
               ),
-              Expanded(
-                child: Row(
+              Row(
                   children: [
-                    Container(
+                    Expanded(
+                      flex: 1,
+                      child: Container(
                       height: 200,
                       width: 300,
                       decoration: BoxDecoration(
@@ -61,7 +62,10 @@ class HelloWorldApp extends StatelessWidget {
                         ),
                       ),
                     ),
-                    Container(
+                    ),
+                    Expanded(
+                      flex: 1,
+                      child: Container(
                       height: 200,
                       width: 300,
                       decoration: BoxDecoration(
@@ -79,7 +83,10 @@ class HelloWorldApp extends StatelessWidget {
                         ),
                       ),
                     ),
-                    Container(
+                    ),
+                    Expanded(
+                      flex: 1,
+                      child: Container(
                       height: 200,
                       width: 300,
                       decoration: BoxDecoration(
@@ -97,7 +104,10 @@ class HelloWorldApp extends StatelessWidget {
                         ),
                       ),
                     ),
-                    Container(
+                    ),
+                    Expanded(
+                      flex: 1,
+                      child: Container(
                       height: 200,
                       width: 300,
                       decoration: BoxDecoration(
@@ -114,10 +124,10 @@ class HelloWorldApp extends StatelessWidget {
                           fontWeight: FontWeight.bold,
                         ),
                       ),
+                    ),
                     ),
                   ],
                 ),
-              ),
               Expanded(
                 child: Container(
                   height: 200,
